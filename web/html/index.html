@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index.css">
+  <script type="text/javascript" src="../js/index.js"></script>
+  <script src="../csv/dados-transporte.json"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASZr8UHVtrK4wVGvPQtu1SZ5caTka1fc4&callback=initMap"></script>
+  <title>Cotação de Transporte - RELÂMPAGO MARQUINHOS</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>RELÂMPAGO MARQUINHOS</h1>
+      <p>Soluções Logísticas</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>Cotação de Transporte</h2>
+
+    <form id="quoteForm">
+      <label for="origin">Origem:</label>
+      <select id="origin" required>
+        <option value="" disabled selected>Selecione a origem</option>
+        <option value="1">Curitiba/PR</option>
+        <option value="2">Londrina/PR</option>
+        <option value="3">Foz do Iguaçu/PR</option>
+        <option value="4">União da Vitória/PR</option>
+        <option value="5">Joinville/SC</option>
+        <option value="6">Chapecó/SC</option>
+        <option value="7">Porto Alegre/RS</option>
+        <option value="8">Uruguaiana/RS</option>
+        <option value="9">Pelotas/RS</option>
+      </select>
+
+      <label for="destination">Destino:</label>
+      <select id="destination" required>
+        <option value="" disabled selected>Selecione o destino</option>
+        <option value="1">Curitiba/PR</option>
+        <option value="2">Londrina/PR</option>
+        <option value="3">Foz do Iguaçu/PR</option>
+        <option value="4">União da Vitória/PR</option>
+        <option value="5">Joinville/SC</option>
+        <option value="6">Chapecó/SC</option>
+        <option value="7">Porto Alegre/RS</option>
+        <option value="8">Uruguaiana/RS</option>
+        <option value="9">Pelotas/RS</option>
+      </select>
+    </form>
+    <br>
+    <button id="show-cot" class="button-cot" onclick="showDistance()">Consultar</button>
+    <button id="clearButton" class="button-cot" onclick="clearData()">Limpar</button>
+
+    <div id="transportData" class="center-content">
+      <h3>Dados de transporte</h3>
+      <div class="output-container">
+        <label class="output-label">Distância:</label>
+        <input id="distanceResult" class="output-value" readonly>
+      </div>
+
+      <div class="output-container">
+        <label class="output-label">Custo total:</label>
+        <input id="totalCostResult" class="output-value" readonly>
+      </div>
+
+      <div class="output-container">
+        <label class="output-label">Tempo estimado de viagem:</label>
+        <input id="travelTimeResult" class="output-value" readonly>
+      </div>
+
+      <div class="output-container">
+        <label class="output-label">Data e hora de saída:</label>
+        <input id="departureDateTimeResult" class="output-value" readonly>
+      </div>
+
+      <div class="output-container">
+        <label class="output-label">Data e hora de chegada:</label>
+        <input id="arrivalDateTimeResult" class="output-value" readonly>
+        <br>
+      </div>
+    </div>
+
+  </div>
+  <br>
+  <br>
+
+</body>
+
+</html>

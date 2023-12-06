@@ -1,0 +1,84 @@
+[
+    {
+      "ID": 1,
+      "Cidade": "Curitiba",
+      "UF": "PR",
+      "Nome": "Curitiba",
+      "Endereço": "Rua XV de Novembro, 1.234",
+      "Latitude": -25.421920,
+      "Longitude": -49.278930
+    },
+    {
+      "ID": 2,
+      "Cidade": "Londrina",
+      "UF": "PR",
+      "Nome": "Londrina",
+      "Endereço": "Rua Maringá, 1.000",
+      "Latitude": -23.265170,
+      "Longitude": -51.109710
+    },
+    {
+      "ID": 3,
+      "Cidade": "Foz do Iguaçu",
+      "UF": "PR",
+      "Nome": "Foz do Iguaçu",
+      "Endereço": "Avenida das Cataratas, 1.000",
+      "Latitude": -25.600000,
+      "Longitude": -54.600000
+    },
+    {
+      "ID": 4,
+      "Cidade": "União da Vitória",
+      "UF": "PR",
+      "Nome": "União da Vitória",
+      "Endereço": "Avenida dos Imigrantes, 1.000",
+      "Latitude": -25.420000,
+      "Longitude": -51.400000
+    },
+    {
+      "ID": 5,
+      "Cidade": "Joinville",
+      "UF": "SC",
+      "Nome": "Joinville",
+      "Endereço": "Rua XV de Novembro, 1.000",
+      "Latitude": -26.220000,
+      "Longitude": -48.820000
+    },
+    {
+      "ID": 6,
+      "Cidade": "Chapecó",
+      "UF": "SC",
+      "Nome": "Chapecó",
+      "Endereço": "Avenida Getúlio Vargas, 1.000",
+      "Latitude": -27.100000,
+      "Longitude": -52.300000
+    },
+    {
+      "ID": 7,
+      "Cidade": "Porto Alegre",
+      "UF": "RS",
+      "Nome": "Porto Alegre",
+      "Endereço": "Rua dos Andradas, 1.000",
+      "Latitude": -30.020000,
+      "Longitude": -51.220000
+    },
+    {
+      "ID": 8,
+      "Cidade": "Uruguaiana",
+      "UF": "RS",
+      "Nome": "Uruguaiana",
+      "Endereço": "Rua Marechal Deodoro, 1.000",
+      "Latitude": -29.820000,
+      "Longitude": -57.220000
+    },
+    {
+      "ID": 9,
+      "Cidade": "Pelotas",
+      "UF": "RS",
+      "Nome": "Pelotas",
+      "Endereço": "Rua Sete de Setembro, 1.000",
+      "Latitude": -31.620000,
+      "Longitude": -52.220000
+    }
+  ]
+  
